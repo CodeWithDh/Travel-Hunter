@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/detail_image_blog"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/learknow"/>
+    <TextView android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Iskon temple"
+        android:layout_below="@+id/detail_image_blog"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView android:textSize="15sp"
+        android:gravity="center"
+        android:id="@+id/discription_blog"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="This is iskon"
+        android:layout_below="@+id/detail_title"/>
+
+    <Button android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Share Post"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#005cd6"/>
+</RelativeLayout>

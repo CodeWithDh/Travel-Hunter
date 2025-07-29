@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Activities.form_Activity">
+
+
+
+
+      <ScrollView
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+              <RelativeLayout
+                  android:id="@+id/upper_layout"
+                  android:background="@drawable/form_sahpe"
+                  android:layout_width="match_parent"
+                  android:layout_height="200dp">
+
+                  <TextView
+                      android:layout_marginBottom="60dp"
+                      android:layout_alignParentBottom="true"
+                      android:textSize="40dp"
+                      android:layout_centerHorizontal="true"
+                      android:textStyle="bold"
+                      android:textColor="#fff"
+                      android:text="WELCOME"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+
+              </RelativeLayout>
+
+              <LinearLayout
+                  android:layout_marginTop="30dp"
+                  android:layout_below="@+id/upper_layout"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+                  <EditText
+                      android:textColor="#4A4A4A"
+                      android:textColorHint="#8F8E8E"
+                      android:id="@+id/name"
+                      android:background="@drawable/edit_txt_sahpe"
+                      android:padding="10dp"
+                      android:hint="Full Name"
+                      android:layout_gravity="center"
+                      android:layout_width="670px"
+                      android:layout_height="120px"/>
+
+                  <EditText
+                      android:textColor="#4A4A4A"
+                      android:inputType="number"
+                      android:textColorHint="#8F8E8E"
+                      android:layout_marginTop="30dp"
+                      android:id="@+id/Em_num"
+                      android:background="@drawable/edit_txt_sahpe"
+                      android:padding="10dp"
+                      android:hint="Emergency Number"
+                      android:layout_gravity="center"
+                      android:layout_width="670px"
+                      android:layout_height="120px"/>
+
+                  <EditText
+
+                      android:textColor="#4A4A4A"
+                      android:inputType="number"
+                      android:textColorHint="#8F8E8E"
+                      android:layout_marginTop="30dp"
+                      android:id="@+id/Wp_number"
+                      android:background="@drawable/edit_txt_sahpe"
+                      android:padding="10dp"
+                      android:hint="WhatsApp Number"
+                      android:layout_gravity="center"
+                      android:layout_width="670px"
+                      android:layout_height="120px"/>
+
+                  <EditText
+                      android:textColor="#4A4A4A"
+                      android:inputType="number"
+                      android:textColorHint="#8F8E8E"
+                      android:layout_marginTop="30dp"
+                      android:id="@+id/Al_number"
+                      android:background="@drawable/edit_txt_sahpe"
+                      android:padding="10dp"
+                      android:hint="Alternative Number"
+                      android:layout_gravity="center"
+                      android:layout_width="670px"
+                      android:layout_height="120px"/>
+
+
+                  <RelativeLayout
+                      android:id="@+id/save_btn"
+                      android:background="@drawable/btn_shape"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="20dp"
+                      android:layout_width="200dp"
+                      android:layout_height="50dp">
+
+                      <TextView
+                          android:textStyle="bold"
+                          android:textSize="20dp"
+                          android:textColor="#fff"
+                          android:layout_centerInParent="true"
+                          android:text="SAVE"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"/>
+
+                  </RelativeLayout>
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+      </ScrollView>
+    
+    
+
+ 
+
+
+</RelativeLayout>

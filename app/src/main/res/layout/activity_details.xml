@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/learknow"/>
+
+    <TextView android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Iskon temple"
+        android:layout_below="@+id/detail_image"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView android:textSize="15sp"
+        android:gravity="center"
+        android:id="@+id/discription"
+        android:padding="30dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="this is "
+        android:layout_below="@+id/detail_name"/>
+
+   <RelativeLayout
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <Button android:id="@+id/location"
+               android:layout_width="170dp"
+               android:layout_height="60dp"
+               android:text="Get Best Route"
+               android:backgroundTint="#005cd6"/>
+
+           <Button
+               android:layout_marginLeft="20dp"
+               android:id="@+id/find_guide"
+               android:layout_width="170dp"
+               android:layout_height="60dp"
+               android:text="Find Guide"
+               android:backgroundTint="#005cd6"/>
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>

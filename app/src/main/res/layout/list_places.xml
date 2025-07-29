@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+android:background="@drawable/border"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView android:id="@+id/place_iamge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/learknow"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/cardView">
+
+        <TextView android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="ISKCON Temple "
+            android:layout_marginStart="20dp"/>
+        <TextView android:textSize="10sp"
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content" android:text="Address " android:layout_below="@+id/place_name" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:id="@+id/crowd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Average crowd " android:layout_below="@+id/address" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <Button android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Get Details" android:layout_below="@+id/crowd" android:layout_centerHorizontal="true" android:backgroundTint="#005cd6"/>
+    </RelativeLayout>
+</RelativeLayout>

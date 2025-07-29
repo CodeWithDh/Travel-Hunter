@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="city">
+        <item>Kharar</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Jaipur</item>
+        <item>Bareilly</item>
+        <item>Seelampur - Delhi</item>
+    </array>
+    <array name="lan">
+        <item>EN - IN</item>
+        <item>Hindi</item>
+        <item>Urdu</item>
+        <item>French</item>
+        <item>Arabic</item>
+        <item>Spanish</item>
+    </array>
+</resources>

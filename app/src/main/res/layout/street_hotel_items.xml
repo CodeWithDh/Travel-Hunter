@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="150dp">
+    <androidx.cardview.widget.CardView android:id="@+id/cardView" android:layout_width="170dp" android:layout_height="140dp" android:layout_centerVertical="true" android:layout_marginStart="20dp" app:cardCornerRadius="10dp">
+        <ImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/learknow" android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_toEndOf="@+id/cardView">
+        <TextView android:textSize="20sp" android:textStyle="bold" android:id="@+id/hotel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ISKCON Temple " android:layout_marginStart="20dp"/>
+        <TextView android:textSize="10sp" android:id="@+id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Address " android:layout_below="@+id/hotel_name" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="15sp" android:textStyle="italic" android:id="@+id/timing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Timing" android:layout_below="@+id/address" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textStyle="bold" android:id="@+id/contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Contect number" android:layout_below="@+id/timing" android:layout_marginStart="20dp"/>
+    </RelativeLayout>
+</RelativeLayout>

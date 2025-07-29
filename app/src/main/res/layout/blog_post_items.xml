@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView android:id="@+id/blog_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/sukhan_lake_chandigarh"
+            android:layout_alignParentStart="true"/>
+
+        <TextView android:textColor="#005cd6"
+            android:id="@+id/city_blog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Chandigarh "
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/blog_image"/>
+
+        <TextView android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/blog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chandigarh "
+            android:layout_below="@+id/city_blog_title"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/blog_image"/>
+
+        <TextView android:textColor="#515151"
+            android:id="@+id/date_uplod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="12 November"
+            android:layout_below="@+id/blog_title"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/blog_image"/>
+    </RelativeLayout>
+</RelativeLayout>

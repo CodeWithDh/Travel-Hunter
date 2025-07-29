@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Travel"
+        android:title="Travel"
+        android:icon="@drawable/travel_ic"/>
+    <item
+        android:id="@+id/Security"
+        android:title="Security"
+        android:icon="@drawable/security_ic"/>
+
+    <item
+        android:id="@+id/Blog"
+        android:title="Blog"
+        android:icon="@drawable/blog_ic"/>
+
+    <item
+        android:id="@+id/Guide"
+        android:title="Guide"
+        android:icon="@drawable/guide_ic"/>
+
+</menu>
