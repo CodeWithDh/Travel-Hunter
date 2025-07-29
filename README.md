@@ -64,8 +64,4 @@
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/travel-hunter.git
-
-   ```javascript 
-
-   console.log("Hello Viewer")
    ```
